@@ -21,6 +21,6 @@ func Print() error {
 	if err != nil {
 		return err
 	}
-	fmt.Printf("Version: %#v\n", v)
+	fmt.Printf("Version: %s\n", v)
 	return nil
 }
